@@ -1,0 +1,18 @@
+---
+title: "Example R Notebook"
+output:
+  html_notebook: default
+  pdf_document: default
+  word_document: default
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+```{r}
+plot(cars)
+```
+
+```{r}
+library(psych)
+describe(cars)
+```
